@@ -1,0 +1,7 @@
+{
+  "company": "YourCompany",
+  "founders": [
+    { "slug": "founder1", "name": "Founder One" },
+    { "slug": "founder2", "name": "Founder Two" }
+  ]
+}

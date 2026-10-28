@@ -1,0 +1,97 @@
+{
+  "number": 1,
+  "slug": "mindset",
+  "title": "Mindset changes",
+  "chapter": 1,
+  "pages": "20–30",
+  "status": "ready",
+  "brief_markdown": "Kazanjy's point in one line: selling is a learnable skill, and the hard part for a founder is not technique but the habits that feel socially wrong at first. There are ten of them. For each: the book's claim, then what it means for Myda at 20 LinkedIn notes a day.\n\n### 1. Plenty, not scarcity\nThe only scarce thing is your time. If an agency owner is stalling, close it out and move on. There are thousands of TikTok Shop agencies and brands across the US, UK and EU. The Myda trap: nursing a warm-but-vague contact for weeks because you only have a handful of replies. A marginal deal hides the good one in your pipeline, and if it closes it churns and badmouths you.\n\n### 2. Activity above all\nQuantity has a quality of its own. Jump first, prepare midair. Template everything. The test: how long do you spend per LinkedIn note, and how long reading a profile before a call? If a note takes more than a minute you are optimising the wrong variable. 20/day is a floor, not a ceiling.\n\n### 3. Be direct, get to brass tacks\nThree questions, asked plainly: Do you have the problem? Do you agree it needs solving? Will you spend money on it? Nobody takes a call with a stranger without some buying intent, so asking respects their time. \"Content is always a struggle\" is not a yes. \"Our creators miss the brief and my team loses two days a week fixing it\" is a yes. This is the drill.\n\n### 4. Many shallow relationships\nDozens of concurrent conversations with people you barely know. Normal, not fake. It is why you cannot rely on memory (see 7). Side effect: weather, football and the latest TikTok Shop algorithm change are instant rapport.\n\n### 5. Assume the sale is inevitable\nOnce an account is qualified the frame is \"when and how\", not \"if\". It makes you consultative instead of pleading and sets up the next pass even when they do not buy this time. For Myda: creator feedback at scale is going to be automated. Either Myda does it for this agency or a competitor will. Say it calmly.\n\n### 6. Expect to win, unfazed by loss\nFor a new category, 20–30% win rate from real conversations is solid. Most conversations die. Hold both ideas at once: full confidence going in, zero hurt feelings coming out. Record why you lost (timing, follow-up, product gap), share it with the other founders, move on.\n\n### 7. Record everything, efficiently\n\"Set future you up for success.\" When you look at this account in three months, what will you wish you had written down? Not transcripts: size, pain, who decides, budget, next step. Calls are recorded with Wispr. The gap is the LinkedIn layer: are 100 notes a week and their replies landing anywhere you can query? That is what the CRM log is for.\n\n### 8. Be expert, which begets fearlessness\nKnow the vertical better than the prospect: how an agency runs creator pools, what a brief looks like, what GMV per video means, what they pay freelancers, what ChatGPT does and does not do for them. Expertise removes the urge to over-prepare.\n\n### 9. Live in a glass house\nEvery call, email and note visible to the team. Activity gaps visible too. It is a relief, not a threat: failures get socialised so nobody repeats them. For two selling founders: you read each other's drills and the scores sit side by side.\n\n### 10. Sales is math\nHow many notes make a reply, how many replies make a call, how many calls make a beta tester. You need those ratios to know whether 20/day is enough. These mindsets compound: recording lets you be direct and non-scarce, expertise lets you act without prep, transparency removes fear of failure, which unblocks activity.\n",
+  "mindsets": [
+    "Plenty, not scarcity",
+    "Activity above all",
+    "Be direct",
+    "Many shallow relationships",
+    "Assume inevitability",
+    "Expect to win, unfazed by loss",
+    "Record everything",
+    "Expert → fearless",
+    "Glass house",
+    "Sales is math"
+  ],
+  "build": {
+    "artifact_key": "mindset-assessment",
+    "shared": false,
+    "artifact_title": "Mindset self-assessment",
+    "spec_markdown": "Produce a self-assessment for this founder with:\n1. A table with one row per mindset (all ten): rating 1–5 and one concrete example from the last two weeks of {{company}} sales (a real message, call or decision, not a generality).\n2. The two lowest-rated mindsets, named as the founder's two standing fixes for the rest of the workshop.\n3. The founder's current win-rate guess: first conversations → paying or beta customers, as a percentage. Record the number even if it is a guess; Module 8 revisits it.\nGo mindset by mindset. Push back if an example is vague (\"I try to follow up\"): ask for the actual thing that happened.",
+    "artifact_template": "# Mindset self-assessment — {{founder_name}}\n\n| # | Mindset | Rating (1–5) | Example from the last two weeks |\n|---|---|---|---|\n\n## Standing fixes\n1. \n2. \n\n## Win-rate guess\nFirst conversations → paying/beta customers: __%\n"
+  },
+  "drill": {
+    "persona": "dana-agency-founder",
+    "channel": "LinkedIn chat",
+    "time_limit": "about 5 minutes / 12 exchanges",
+    "rounds": 1,
+    "scenario": "Dana accepted your LinkedIn connection last week and replied 'yeah, content is always a struggle, would love to chat sometime' to your note. This is the chat that follows. Your job: get her to answer three brass-tacks questions: (1) does she have the problem, (2) does she agree it needs solving, (3) would she spend money on it. End by proposing a specific next step with a date.",
+    "buyer_opening": "Hey! Thanks for the note. Yeah, content is always a bit of a struggle on our side haha. What's {{company}} about?"
+  },
+  "rubric": {
+    "max": 12,
+    "threshold": 7,
+    "rows": [
+      {
+        "n": 1,
+        "criterion": "Asked whether she has the problem, explicitly",
+        "levels": [
+          "never asked",
+          "implied",
+          "asked directly and got a yes/no"
+        ]
+      },
+      {
+        "n": 2,
+        "criterion": "Asked whether it's worth solving / what it costs her",
+        "levels": [
+          "—",
+          "vague",
+          "got a number or a consequence"
+        ]
+      },
+      {
+        "n": 3,
+        "criterion": "Asked about budget / willingness to pay",
+        "levels": [
+          "avoided",
+          "hinted",
+          "asked plainly"
+        ]
+      },
+      {
+        "n": 4,
+        "criterion": "Asked for a specific next step with a date",
+        "levels": [
+          "\"let's chat sometime\"",
+          "asked, no date",
+          "date + time proposed"
+        ]
+      },
+      {
+        "n": 5,
+        "criterion": "Didn't over-prepare / over-explain (activity mindset)",
+        "levels": [
+          "monologued",
+          "mixed",
+          "short turns, questions"
+        ]
+      },
+      {
+        "n": 6,
+        "criterion": "Unfazed by deflection",
+        "levels": [
+          "retreated at first brush-off",
+          "pushed once",
+          "reframed and continued"
+        ]
+      }
+    ],
+    "below_threshold_note": "Below 7: repeat the drill with the other persona when you can; Module 2 is open either way."
+  }
+}

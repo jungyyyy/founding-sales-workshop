@@ -1,0 +1,73 @@
+{
+  "number": 2,
+  "slug": "narrative",
+  "title": "Narrative & pricing",
+  "chapter": 2,
+  "pages": "31–55",
+  "status": "ready",
+  "brief_markdown": "The narrative is the story you will later turn into decks, emails, website copy and the pitch. Build the framework first. It is a hypothesis that the market will edit, but you need a coherent draft before the first conversation.\n\n### The shape: problem → solution → specifics\nSeven questions, in order, each building on the one before. The order is inductive: if the prospect disagrees with the problem, you find out in the first thirty seconds and stop. If they agree the problem exists but not that they have it, you also stop. You only spend time on people who nodded at every step.\n\n**1. What is the problem?** Crisp enough that a TikTok Shop agency owner can tell in one sentence whether it is theirs. Not \"content is hard\". Something like: creators send videos that miss the brief, the team burns days on feedback rounds, and the few videos that hit cannot be reproduced on purpose. Test: say it to someone in the industry. If they say \"yes\" and then keep talking about it, you have it.\n\n**2. Who has it?** The person whose job it is to fix it, not the person who feels it. Rule of thumb: whoever controls the budget for this pain, or whoever spends hours a week on it. At an agency that is the founder or head of content, not the account manager. At a brand it is the head of e-commerce or the TikTok Shop manager, not the CMO. If someone can say \"that's not really my job\", you have the wrong person. Knowing the titles also tells you which companies are qualified: no such title in-house means no deal.\n\n**3. What does the problem cost?** Two kinds of ROI. Hard ROI: a cost that goes away (the £6k/month UGC retainer, the freelance creator fee per video, the hours of in-house review). Soft ROI: an opportunity cost (the GMV the hit videos would have made if you could produce three of them a week instead of one). Soft is harder to prove but often bigger. Know the unit cost, then scale it by the size of the account.\n\n**4. How is it solved today, and why does that fail?** Four paths, each needs its own counter.\n- *Nothing:* they ship whatever creators send. Your job is to show the cost of not solving it.\n- *Process:* a Notion brief, a Slack feedback channel, a weekly review call. Fails on time cost and fragility: feedback is late, inconsistent, and depends on one person's taste.\n- *Service provider:* a UGC agency or freelance editors. Works, but they charge a margin, and feedback happens once per video rather than per creator over time.\n- *Product:* other AI script or creative tools, or ChatGPT. Good sign: they already pay to solve it. Know their strengths honestly (cheap, fast) and where they stop (generic output, no loop back to the creator).\n\nCredibility comes from granting each alternative its strengths. Never trash the thing they currently use.\n\n**5. What has changed?** Why is this solvable now and not two years ago? For Myda: TikTok Shop made creator video the main sales channel for these brands, so volume exploded; and models can now watch a video, compare it to a brief and write specific feedback a human would agree with. Change can also *demand* a solution: brands that used to post weekly now need daily creator output. Say which one you are.\n\n**6. How does Myda work?** One or two sentences a non-technical person follows, ideally by comparison to something they know: \"like a creative director who reviews every creator video within the hour and sends each creator a 1:1 note, in Discord or email, on what to fix.\"\n\n**7. How do you know it is better?** Measure yourself in the units they already use: hours of review per week, cost per approved video, hook rate, GMV per video. \"More X\" or \"less Y\". Qualitative claims need a number behind them. Third-party proof (beta testers, quotes, logos) is the \"and here is who agrees\".\n\n### Pricing\nCharge from day one. Free means nobody takes it seriously or uses it. A 50%-off beta is fine; free is not.\n- **Comparables first.** Price in a unit the buyer already understands. Agencies pay per video, per creator, per month. Find out what a freelance creator costs per video and what a UGC agency charges per month, and sit under it with a clearly better offer.\n- **ROI pricing.** If Myda saves a 3-person content team one day a week, that is a known cost. Capture a fraction of it.\n- **Value alignment / thresholding.** Price so the person you talk to can say yes alone. Dana can sign up to about £500/month herself; Marcus up to about $2k. Stay under the threshold of the person in the room.\n- **Do not price to perfection.** Start low, raise it when nobody blinks. Grandfather early customers.\n- **Do not segment yet.** No three-tier pricing page. One price, one unit, one term. Segment later when you know which features matter to whom.\n\n### The elevator pitch\nPut all seven answers into 90 seconds you could say to a Head of E-commerce at an industry event. He will double-click on whatever is weakest. That is the drill.\n",
+  "seven_questions": [
+    "What is the problem?",
+    "Who has it (title, role)?",
+    "What does it cost them?",
+    "How is it solved today and why does that fail?",
+    "What has changed?",
+    "How does {{company}} work?",
+    "How do you know it is better?"
+  ],
+  "build": {
+    "artifact_key": "company",
+    "shared": true,
+    "artifact_title": "{{company}} — company & narrative",
+    "spec_markdown": "Rewrite the Narrative section of the company artifact by walking the seven questions one at a time. For each answer apply the test: would a TikTok Shop agency owner say \"yes, that's me\" or \"that's not really my job\"? Do not accept the first answer. Then produce the Pricing section: one price, one unit (per seat? per brand? per video? per creator?), one term; note the comparables used (freelance creator cost per video, UGC agency monthly retainer) and the ROI argument. Finish with a 90-second elevator pitch paragraph that uses all seven answers. Keep every other section of the artifact intact.",
+    "secondary_artifact_key": "pricing",
+    "secondary_artifact_title": "{{company}} — pricing v1"
+  },
+  "drill": {
+    "persona": "marcus-brand-ecom-lead",
+    "channel": "in person, industry event hallway",
+    "time_limit": "90 seconds per round, three rounds",
+    "rounds": 3,
+    "scenario": "You are at a DTC e-commerce event in Austin. Marcus (Head of E-commerce at a supplements brand doing real TikTok Shop volume) is getting a coffee next to you. You have 90 seconds before he walks off. He double-clicks on whatever is weak: 'what's changed, why now?', 'how do you know it works?', 'so what does it cost?'. Three rounds. Between rounds you may edit the narrative artifact.",
+    "buyer_opening": "*glances at your badge* {{company}}. Haven't heard of it. What do you do?"
+  },
+  "rubric": {
+    "max": 16,
+    "threshold": 10,
+    "rows": [
+      {
+        "n": 1,
+        "criterion": "Problem stated in the prospect's words, specific to TikTok Shop (not 'content is hard')"
+      },
+      {
+        "n": 2,
+        "criterion": "Named who has the problem by role, and Marcus recognised himself"
+      },
+      {
+        "n": 3,
+        "criterion": "Put a cost on the problem (money, time, or missed GMV)"
+      },
+      {
+        "n": 4,
+        "criterion": "Named how it's solved today and why that fails, without trashing the alternative"
+      },
+      {
+        "n": 5,
+        "criterion": "Explained what has changed (why this is possible now)"
+      },
+      {
+        "n": 6,
+        "criterion": "Explained how {{company}} works in one or two sentences a non-technical person follows"
+      },
+      {
+        "n": 7,
+        "criterion": "Gave at least one proof point (number, customer, or demo result)"
+      },
+      {
+        "n": 8,
+        "criterion": "Stated a price when asked, without flinching or discounting"
+      }
+    ],
+    "below_threshold_note": "Below 10: tighten the narrative's weakest row before you lean on it in Module 3 (which is open either way). Carry forward the weakest row plus any question Marcus asked that could not be answered (add to open-questions)."
+  }
+}
